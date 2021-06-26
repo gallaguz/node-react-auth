@@ -10,33 +10,23 @@ or
 
 # docker-compose -f docker-compose.mongo.yaml up
 
-  cd client
+  cd client<br />  
+  npm i<br />
+  cd server<br />
+  npm i<br />
   
-  npm i
-  
-  cd server
-  
-  npm i
-  
-.env
+In ./sever/.env<br />
 
-#docker
+#docker<br />
+ // comment next line<br />
+#DB_URL=mongodb://root:password@mongo:27017/auth?authSource=admin<br />
+#local<br />
+// uncomment next line<br />
+DB_URL=mongodb://root:password@localhost:27017/auth?authSource=admin <br />
 
- // comment next line
- 
-#DB_URL=mongodb://root:password@mongo:27017/auth?authSource=admin
-
-#local
-
-// uncomment next line
-
-DB_URL=mongodb://root:password@localhost:27017/auth?authSource=admin 
-
-cd to root project
-
-  npm i
-  
-  npm run dev
+cd to root project<br />
+  npm i<br />
+  npm run dev<br />
 
 http://localhost:3000
 
