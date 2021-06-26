@@ -2,13 +2,13 @@
 
 Authentication using React, Express. Api, Jwt, Mongo
 
-docker-compose up
+# docker-compose up
 
 http://localhost:3000
 
 or
 
-docker-compose -f docker-compose.mongo.yaml up
+# docker-compose -f docker-compose.mongo.yaml up
 
   cd client
   
