@@ -1,0 +1,4 @@
+/.idea/
+/mongodb/db_files/
+/server/node_modules/
+/client/node_modules/
