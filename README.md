@@ -9,9 +9,13 @@ http://localhost:3000
 or
 
 docker-compose -f docker-compose.mongo.yaml up
+
   cd client
+  
   npm i
+  
   cd server
+  
   npm i
   
 .env
@@ -29,7 +33,12 @@ docker-compose -f docker-compose.mongo.yaml up
 DB_URL=mongodb://root:password@localhost:27017/auth?authSource=admin 
 
 cd to root project
+
   npm i
+  
   npm run dev
 
 http://localhost:3000
+
+
+
