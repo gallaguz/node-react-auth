@@ -13,12 +13,19 @@ docker-compose -f docker-compose.mongo.yaml up
   npm i
   cd server
   npm i
+  
 .env
+
 #docker
+
  // comment next line
+ 
 #DB_URL=mongodb://root:password@mongo:27017/auth?authSource=admin
+
 #local
+
 // uncomment next line
+
 DB_URL=mongodb://root:password@localhost:27017/auth?authSource=admin 
 
 cd to root project
